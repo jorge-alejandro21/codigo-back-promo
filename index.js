@@ -13,7 +13,7 @@ app.use(json());
 
 // Configurar CORS para permitir solo solicitudes desde el dominio de tu frontend
 const corsOptions = {
-  origin: '*', // Reemplaza esto por la URL de tu frontend
+  origin: 'codigo-front-promo.vercel.app', // Reemplaza esto por la URL de tu frontend
   methods: ['GET', 'POST', 'PUT', 'DELETE'],   // Métodos que vas a permitir
   allowedHeaders: ['Content-Type', 'Authorization'],  // Headers que permites
   credentials: true  // Si estás manejando autenticación basada en cookies o sesiones
